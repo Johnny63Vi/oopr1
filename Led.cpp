@@ -4,7 +4,9 @@
 Led::Led(int n): pinNr(n),status(0)
 {
     pinMode(pinNr,OUTPUT);
+    
 }
+
 
 Led::~Led()
 {
