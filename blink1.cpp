@@ -5,8 +5,8 @@ using namespace std;
 
 #include "Led.h"
 
-#define TIMELEDON 1000
-#define TIMELEDOFF 500
+#define TIMELEDON 1000000
+#define TIMELEDOFF 500000
 
 int main (void)
 {
@@ -17,9 +17,9 @@ int main (void)
   for (;;)
   {
     ld.zetAan();
-    usleep(1000000);
+    usleep(TIMELEDON);
     ld.zetUit();
-    usleep(500000);
+    usleep(TIMELEDOFF);
   }
   return 0 ;
 }
