@@ -11,6 +11,7 @@ using namespace std;
 int main (void)
 {
   cout<<"hoi opgave1"<<endl;
+  wiringPiSetupGpio();  //moet worden aangeroepen 
   Led ld(18);
 
   for (;;)
