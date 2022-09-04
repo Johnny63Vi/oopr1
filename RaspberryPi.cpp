@@ -1,5 +1,5 @@
 #include "RaspberryPi.h"
-
+#include <wiringPi.h>
 
 RaspberryPi::RaspberryPi(int nr):productienummer(nr)
 {
