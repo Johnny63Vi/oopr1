@@ -2,7 +2,7 @@
 #define RASPBERRYPI_H
 
 #pragma once
-#include <wiringPi.h>
+
 #include "RaspberryPiPin.h"
 
 #define AANTALPINNEN 4
