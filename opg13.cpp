@@ -2,7 +2,7 @@
 
  * opg13.cpp
  *
- *  Created on: May 7, 2014
+ *  Created on: September, 2022
  *      Author: john
  */
 
@@ -15,7 +15,7 @@
 using namespace std;
 
 int main() {
-	cout<<"begin van opgave 1"<<endl;
+    cout<<"begin van opgave 1"<<endl;
     Tijdsduur t1(3,50); // t1 is 3 minuten en 50 seconden
     cout<<"t1 = "; t1.print(); cout<<endl;
     const Tijdsduur kw(15); // kw is 15 seconden
@@ -32,5 +32,5 @@ int main() {
     Tijdsduur t4(3,122); // t4 is 3 minuten plus 122 seconden
     cout<<"t4 = "; t4.print(); cout<<endl;
     cout<<"het totaal aantal seconde van t4 = "<<t4.deTimerTijd()<<endl;
-     return 0;
+    return 0;
 }
