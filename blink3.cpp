@@ -31,6 +31,5 @@ int main(void)
   Logled logld1(&miniC,18, "Rood", "Pietje Puk",4);
   logld1.zetAan();
 
-  }
   return 0 ;
 }
